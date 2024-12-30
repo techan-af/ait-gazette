@@ -1,0 +1,8 @@
+{
+    "rewrites": [
+      { "source": "/admin", "destination": "/" },
+      { "source": "/adminLogin", "destination": "/" },
+      { "source": "/article/:id", "destination": "/" },
+      { "source": "/:path*", "destination": "/" }
+    ]
+  }
